@@ -34,16 +34,17 @@ def initial_round
   # code #initial_round here
   sum = deal_card + deal_card
   deal_card_total(sum)
-  return sum
+  #return sum
 end
 
 def hit?(current_total)
   # code hit? here
+  
   prompt_user
   input = get_user_input
   
   if input == "h" 
-    current_total += deal_card
+    card_total += deal_card
   elsif input == "s"
   end
   return current_total
