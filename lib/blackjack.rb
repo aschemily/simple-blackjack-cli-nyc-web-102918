@@ -62,7 +62,7 @@ end
 #####################################################
 
 def runner
-  code runner here
+  #code runner here
   welcome 
   card_total = 0 
   card_total = initial_round
